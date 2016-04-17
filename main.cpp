@@ -1,4 +1,5 @@
 #include <iostream>
+#include "/qtdropbox/libqtdropbox.pri"
 
 using namespace std;
 
