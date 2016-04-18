@@ -3,9 +3,8 @@
 //
 
 #include <iostream>
-#include "/Dropbox-C-master/Dropbox/include/dropbox.h"
+#include "dropbox.h"
 #include "/Dropbox-C-master/memStream/include/memStream.h"
-#include "/Dropbox-C-master/Dropbox/include/"
 
 using namespace std;
 
@@ -25,7 +24,36 @@ void Encrypt_and_Upload_to_Dropbox::encryptFunction()
 
     drbInit();
 
+    drbClient* cli = drbCreateClient(app_key, app_secret, t_key, t_secret);
+
+    // Request a AccessToken if undefined (NULL)
+    if(!t_key || !t_secret) {
+        drbOAuthToken* reqTok = drbObtainRequestToken(cli);
+
+        if (reqTok) {
+            char* url = drbBuildAuthorizeUrl(reqTok);
+            printf("Please visit %s\nThen press Enter...\n", url);
+            free(url);
+            fgetc(stdin);
+
+            drbOAuthToken* accTok = drbObtainAccessToken(cli);
+
+            if (accTok) {
+                // This key and secret can replace the NULL value in t_key and
+                // t_secret for the next time.
+                printf("key:    %s\nsecret: %s\n", accTok->key, accTok->secret);
+            } else{
+                fprintf(stderr, "Failed to obtain an AccessToken...\n");
+            }
+        } else {
+            fprintf(stderr, "Failed to obtain a RequestToken...\n");
+        }
+    }
+
+    // Set default arguments to not repeat them on each API call
+    drbSetDefault(cli, DRBOPT_ROOT, DRBVAL_ROOT_AUTO, DRBOPT_END);
 
 
-    flow = dropbox.client.DropboxOAuth2FlowNoRedirect(app_key, app_secret)
+
+
 }
