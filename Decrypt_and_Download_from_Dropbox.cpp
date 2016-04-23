@@ -4,8 +4,8 @@
 
 #include <iostream>
 #include <string>
-#include "Dropbox-C-master/Dropbox/include/dropbox.h"
-#include "Dropbox-C-master/memStream/include/memStream.h"
+#include <dropbox.h>
+#include <memStream.h>
 
 using namespace std;
 
@@ -95,11 +95,10 @@ void Decrypt_and_Download_from_Dropbox::decryptFunction()
     //Getting the filename the user wish to download
     cout << "Input the name of file you want to download:";
     cin >> filename;
-    string full_path = directory + filename;
-    FILE *file = fopen(full_path, "w"); // Write it in this file
+    FILE *file = fopen(directory+"tmp", "w"); // Write it in temp file
     output = NULL;
     err = drbGetFile(cli, &output,
-                     DRBOPT_PATH, "/hello.txt",
+                     DRBOPT_PATH, "/tmp",
                      DRBOPT_IO_DATA, file,
                      DRBOPT_IO_FUNC, fwrite,
                      DRBOPT_END);
@@ -114,7 +113,7 @@ void Decrypt_and_Download_from_Dropbox::decryptFunction()
     }
 
 
-    //Decrypt the downloaded file
+    //Decrypt the downloaded file and write into dest file
 
 
 

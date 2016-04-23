@@ -2,10 +2,264 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Encrypt_and_Upload_to_Dropbox.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Encrypt_and_Upload_to_Dropbox.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Decrypt_and_Download_from_Dropbox.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Decrypt_and_Download_from_Dropbox.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Encrypt_and_Upload_to_Dropbox.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/blowfish.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/algparam.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/strciphr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gost.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/serpent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cmac.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/mqueue.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/oaep.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/basecode.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dh.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rc2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/mars.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/trdlocal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/sharkbox.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/shacal2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/blumshub.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/pubkey.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cryptlib_bds.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rabin.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/tea.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cpu.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/hex.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/xtr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/wake.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/fipstest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/adler32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/salsa.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gf2_32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/panama.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/pssr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/eprecomp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gf256.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/network.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/mqueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gf2n.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/zdeflate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ida.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dll.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/salsa.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rc6.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/eccrypto.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/skipjack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/safer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/blumshub.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/integer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/twofish.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/pssr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dessp.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/bench2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ripemd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/seed.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/seal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/sha3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/pkcspad.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rdrand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cast.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/datatest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/zlib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ttmac.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/base32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cbcmac.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/channels.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/mqv.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/idea.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/fipsalgt.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gcm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/md5.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ccm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/base64.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/algebra.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gf2n.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ecp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/fips140.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/sha3.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/crc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/crc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/misc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gcm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/polynomi.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/sosemanuk.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/xtrcrypt.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/base64.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/xtrcrypt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/base32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/iterhash.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/pubkey.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/md4.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/strciphr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ttmac.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ec2n.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ida.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cbcmac.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/whrlpool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/safer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/asn.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/bench.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/pch.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/emsa2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/socketft.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/basecode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/nbtheory.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/network.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/socketft.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ripemd.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/seed.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/eax.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/camellia.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cryptlib.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/polynomi.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rabin.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/mqv.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cpu.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/marss.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/skipjack.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rc2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gzip.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/zinflate.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/elgamal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/sosemanuk.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/fips140.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/files.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/validat3.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dlltest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dh.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/files.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/tea.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/esign.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rw.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/wait.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ec2n.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rw.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/modes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/square.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/trdlocal.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/sha.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cmac.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/tiger.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/algparam.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/idea.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dh2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gzip.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rng.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/shark.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/tiger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/zlib.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/des.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/oaep.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/validat2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/square.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/casts.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/3way.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/test.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/tigertab.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/asn.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rsa.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/hrtimer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dsa.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rng.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/luc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/vmac.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/authenc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/randpool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/queue.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/mars.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/emsa2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/zdeflate.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/nbtheory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/camellia.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/misc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/eccrypto.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ecp.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/simple.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/arc4.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/validat1.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/bench.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/sha.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gf2_32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/arc4.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/winpipes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rc5.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gfpcrypt.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/winpipes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/eax.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/pkcspad.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/default.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rsa.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/regtest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/whrlpool.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/algebra.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gf256.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/pch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/shacal2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/md2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cast.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/cryptlib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/vmac.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/randpool.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/queue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/md5.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/hrtimer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/3way.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dsa.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/authenc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/osrng.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/hex.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/osrng.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/filters.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/integer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/luc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gfpcrypt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/iterhash.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/gost.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/serpent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/des.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/tftables.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/xtr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/md2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/squaretb.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/modes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/adler32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/blowfish.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/channels.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dll.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rijndael.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/md4.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rijndael.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/bfinit.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/elgamal.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/wait.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/zinflate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/ccm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/dh2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rc6.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/default.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/esign.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/twofish.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/simple.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/seal.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rdtables.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/shark.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/panama.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/hmac.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rc5.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/filters.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/rdrand.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/eprecomp.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/wake.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/crypto/hmac.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/Dropbox/src/dropbox.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/Dropbox/src/dropboxUtils.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/Dropbox/src/dropboxJson.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dropbox-C-master/Dropbox/src/dropboxOAuth.c" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
@@ -14,23 +268,23 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/InstantMessage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/DirectoryService.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ScriptingBridge.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/InstallerPlugins.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreMediaIO.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreWLAN.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/JavaVM.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
@@ -48,21 +302,22 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/vecLib.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/vmnet.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ExceptionHandling.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Tcl.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenCL.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers" />
@@ -71,7 +326,6 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CalendarStore.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
@@ -87,8 +341,18 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Kernel.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/InputMethodKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreMediaIO.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/DVComponentGlue.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenDirectory.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
@@ -105,8 +369,8 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MediaLibrary.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OSAKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ExceptionHandling.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Ruby.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
@@ -130,22 +394,21 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/GSS.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/TWAIN.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOSurface.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Hypervisor.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppKitScripting.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/SecurityFoundation.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Collaboration.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
@@ -158,21 +421,12 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/DiscRecording.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/PCSC.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppleScriptKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/LDAP.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ServiceManagement.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ICADevices.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Scripting.framework/Headers" />
@@ -181,29 +435,29 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.2/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/include" />
         </CLASSES>
         <SOURCES>
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/InstantMessage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/DirectoryService.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ScriptingBridge.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/InstallerPlugins.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreMediaIO.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreWLAN.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/JavaVM.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
@@ -221,21 +475,22 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/vecLib.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/vmnet.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ExceptionHandling.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Tcl.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenCL.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers" />
@@ -244,7 +499,6 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CalendarStore.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
@@ -260,8 +514,18 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Kernel.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/InputMethodKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreMediaIO.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/DVComponentGlue.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenDirectory.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
@@ -278,8 +542,8 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MediaLibrary.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OSAKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ExceptionHandling.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Ruby.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
@@ -303,22 +567,21 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/GSS.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/TWAIN.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOSurface.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Hypervisor.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppKitScripting.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/SecurityFoundation.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Collaboration.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
@@ -331,21 +594,12 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/DiscRecording.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/PCSC.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppleScriptKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/LDAP.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ServiceManagement.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/ICADevices.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Scripting.framework/Headers" />
@@ -354,7 +608,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.2/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/include" />
         </SOURCES>
       </library>
     </orderEntry>
