@@ -2,11 +2,9 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Encrypt_and_Upload_to_Dropbox.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Decrypt_and_Download_from_Dropbox.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Decrypt_and_Download_from_Dropbox.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Encrypt_and_Upload_to_Dropbox.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Decrypt_and_Download_from_Dropbox.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
